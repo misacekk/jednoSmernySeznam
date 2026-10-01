@@ -1,4 +1,4 @@
-public class Ukol {
+class Ukol {
     private String nazev;
     private int priorita;
 
