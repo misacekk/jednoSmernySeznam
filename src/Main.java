@@ -11,30 +11,30 @@ public class Main {
         list.add(new Ukol("SW", 4));
         list.printAll();
 
-        System.out.println("---Přidání úkolu na první pozici---");
+        System.out.println("\n---Přidání úkolu na první pozici---");
         list.addFirst(new Ukol("Matematika", 3));
         list.printAll();
 
-        System.out.println("---Odebrání úkolu na první pozici---");
+        System.out.println("\n---Odebrání úkolu na první pozici---");
         list.removeFirst();
         list.printAll();
 
-        System.out.println("---Přidání úkolu na určité pozici---");
-        list.addAt(2, new Ukol ("Fyzika",4));
+        System.out.println("\n---Přidání úkolu na určité pozici (index 2)---");
+        list.addAt(2, new Ukol("Fyzika", 4));
         list.printAll();
 
-        System.out.println("---Odebrání úkolu na určité pozici---");
+        System.out.println("\n---Odebrání úkolu na určité pozici (index 4)---");
         list.removeAt(4);
         list.printAll();
 
-        System.out.println("---Vypsání úkolů s určitou prioritou---");
+        System.out.println("\n---Vypsání úkolů s prioritou 2---");
         list.printAt(2);
 
-        System.out.println("---Odebrání úkolů podle názvu---");
+        System.out.println("\n---Odebrání úkolů podle názvu (Fyzika)---");
         list.removeByName("Fyzika");
         list.printAll();
 
-        System.out.println("---Obrácení seznamu---");
+        System.out.println("\n---Obrácení seznamu---");
         list.flipList();
         list.printAll();
     }
